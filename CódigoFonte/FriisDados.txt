@@ -1,0 +1,2 @@
+#Respectivos dados: Distância(d), PT, GT, GR e Frequencia(Em Hz)
+5 1 2 2 2400000000

@@ -1,0 +1,3 @@
+# Respectivos dados para os cálculos:
+# 1º Distância(D)
+10

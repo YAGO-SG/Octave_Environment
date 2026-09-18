@@ -1,0 +1,7 @@
+#Respectivos dados para cálculo:
+# 1º Distância(d),
+# 2º Distância inicial(d0),
+# 3º n(exp. perda de propagação);
+# 4º Pr(d0). Obs: Pr(d0) opcional.
+#Se Pr(d0) não passado, será usado o cálculo de Friis com os dados do arquivo FriisDados.txt
+5 1 3
