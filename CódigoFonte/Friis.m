@@ -8,7 +8,7 @@ function [saida] = Friis()
   Lambda = (3 * 10^8)/ Frequencia;
   Atr = 0;
 
-  d = 1:0.1:20;
+  d = 1:1:20;
   Pr = 0;
 
 
@@ -16,7 +16,7 @@ function [saida] = Friis()
 
   texto = sprintf("Resultado para o modelo de Friis: %E", PrValor);
 
-  for i = 1:0.1:20
+  for i = 1:1:20
     Atr(i) = (Lambda/(4 * pi * d(i)))^2;
     Pr(i) = Pt * Gt * Gr * Atr(i);
   endfor
